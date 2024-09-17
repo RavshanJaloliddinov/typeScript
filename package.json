@@ -1,0 +1,15 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "start:dev": "set NODE_ENV=development && nodemon dist/main.js",
+    "start:prod": "set NODE_ENV=production && node dist/main.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
